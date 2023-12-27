@@ -1,0 +1,102 @@
+body{
+    background: linear-gradient(to bottom right, #e6faff, #ccf5ff, #99ffff);
+}
+header{
+    position: relative;
+}
+.mtitle{
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 4px #000;
+    color: #ffffe6;
+    font-size: 180%;
+    padding-bottom: 18px;
+}
+
+.logo{
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    max-width: 120px;
+    height: auto;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: turquoise;
+	display: table;
+    width: 100%;
+}
+nav li {
+	display: table-cell
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 25px 25px;
+	text-shadow: 1px 1px 2px #000;
+    text-decoration: none;
+    font-size: 130%;
+}
+
+li a:hover {
+	background-color: blue;
+}
+header {
+    background: linear-gradient(to bottom right, #e6faff, #ccf5ff, #99ffff);
+}
+.introduction {
+    text-align: justify;
+    padding-top: 10px;
+    
+}
+p{
+    text-align: justify;
+    color: black;
+    line-height: 1.5;
+    font-size: 130%;
+}
+.container {
+    margin: 0 auto;
+    background-color: rgb(243, 252, 255);
+    max-width: 90%;
+    padding: 10px;
+    box-shadow: 0px 2px 6px #000;
+    position: relative;
+    margin-top: 15px;
+}
+h2 {
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 4px #000;
+    color: #ffffe6;
+    background-color: turquoise;
+    padding: 10px;
+    font-size: 180%;
+}
+.team {
+    width: 200px;
+    float: right;
+    padding-left: 15px;
+}
+.fdpn{
+    top: 0%;
+    right: 0%;
+    position: absolute;
+    max-width: 120px;
+    height: auto;
+}
+.teacher1{
+    width: 200px;
+    float: left;
+    padding-right: 15px;
+}
+.teacher2{
+    width: 200px;
+    float: left;
+    padding-right: 15px;
+}
